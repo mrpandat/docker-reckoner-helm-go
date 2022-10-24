@@ -5,5 +5,5 @@ RUN curl -LJO  https://github.com/FairwindsOps/reckoner/releases/download/v6.0.0
     && cp reckoner /bin/reckoner \
     && rm -rf reckoner_6.0.0_linux_amd64.tar.gz
 
-RUN reckoner --version
+RUN reckoner version
 CMD bash
